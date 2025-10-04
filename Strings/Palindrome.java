@@ -10,7 +10,7 @@ public class Palindrome {
     while(i<j){
         char temp = c[i];
         c[i]=c[j];
-        c[j]=c[i];
+        c[j]=temp;
         i++;j--;
     } 
     String reverse = new String(c);
