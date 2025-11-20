@@ -15,3 +15,4 @@ public class AlphabeticalOccurance {
         for(var i:freq.entrySet()) System.out.println(i.getKey()+" : "+i.getValue());
     }
 }
+ 

@@ -3,9 +3,10 @@ import java.util.*;
 public class Pangram {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
+        String str1 = sc.nextLine();
         int[] freq = new int[26];
         int count=0;
+        String str = str1.toLowerCase().strip();
         for(int i=0;i<str.length();i++){
             char ch = str.charAt(i);
             if(ch>='a' && ch<='z'){
